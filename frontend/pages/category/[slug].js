@@ -49,7 +49,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       category: matchingCategories.data[0],
-      categories: allCategories,
+      categories: allCategories
     },
     revalidate: 1,
   }

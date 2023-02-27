@@ -6,10 +6,12 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* eslint-disable-next-line */}
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Staatliches"
-          />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link 
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" 
+            rel="stylesheet">
+          </link>
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"
